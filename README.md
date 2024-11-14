@@ -14,3 +14,11 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+
+Things that we will practice:
+ => GetX Material app
+ => GetX Snackbar
+ => GetX Dialog Alert
+ => GetX Bottom Sheet
+ => GetX Change Light & Dark Theme

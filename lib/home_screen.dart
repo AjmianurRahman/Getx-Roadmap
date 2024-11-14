@@ -78,7 +78,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
           OutlinedButton(onPressed:(){
             Navigator.push(context, MaterialPageRoute(builder: (context)=>NewScreen()));
-          }, child: Text('Tap press'))
+          }, child: Text('New press'))
         ],
       ),
       floatingActionButton: FloatingActionButton(
