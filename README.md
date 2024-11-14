@@ -1,6 +1,6 @@
-# getx_roadmap
+# GetX_Roadmap
 
-A getx practice roadmap
+A GetX practice roadmap
 
 ## Getting Started
 
