@@ -17,8 +17,8 @@ samples, guidance on mobile development, and a full API reference.
 
 
 Things that we will practice:
- => GetX Material app
- => GetX Snackbar
- => GetX Dialog Alert
+ => GetX Material app\n
+ => GetX Snackbar\n
+ => GetX Dialog Alert\n
  => GetX Bottom Sheet
  => GetX Change Light & Dark Theme
