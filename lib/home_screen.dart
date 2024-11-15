@@ -76,9 +76,12 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ),
 
+          const SizedBox(height: 30,),
           OutlinedButton(onPressed:(){
-            Navigator.push(context, MaterialPageRoute(builder: (context)=>NewScreen()));
-          }, child: Text('New press'))
+          //  Navigator.push(context, MaterialPageRoute(builder: (context)=>NewScreen()));
+
+            Get.to(NewScreen());
+          }, child: Text('New Screen'))
         ],
       ),
       floatingActionButton: FloatingActionButton(

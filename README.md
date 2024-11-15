@@ -22,3 +22,4 @@ Things that we will practice:
 3. GetX Dialog Alert.
 4. GetX Bottom Sheet.
 5. GetX Change Light & Dark Theme.
+6. GegtX Localization Change the Language of the App.
