@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getx_roadmap/new_screen.dart';
+import 'package:getx_roadmap/state_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -75,13 +76,18 @@ class _HomeScreenState extends State<HomeScreen> {
               },
             ),
           ),
-
           const SizedBox(height: 30,),
           OutlinedButton(onPressed:(){
           //  Navigator.push(context, MaterialPageRoute(builder: (context)=>NewScreen()));
 
             Get.to(NewScreen());
-          }, child: Text('New Screen'))
+          }, child: Text('New Screen')),
+          const SizedBox(height: 30,),
+          OutlinedButton(onPressed:(){
+            //  Navigator.push(context, MaterialPageRoute(builder: (context)=>NewScreen()));
+            Get.to(StateScreen());
+          }, child: Text('State Manage Screen')),
+
         ],
       ),
       floatingActionButton: FloatingActionButton(

@@ -23,3 +23,14 @@ Things that we will practice:
 4. GetX Bottom Sheet.
 5. GetX Change Light & Dark Theme.
 6. GegtX Localization Change the Language of the App.
+
+# GetX State Management with Example
+
+Things that are new in it =>
+GetX has different data types to declare which we need to use Rx before data type
+Use Obx to detect the change
+
+
+This contains:
+1. GetX Counter Example, this example will create a simple counter app with getx to increment the value of counter4
+2. Box Opcity with Slider example.
