@@ -34,3 +34,4 @@ Use Obx to detect the change
 This contains:
 1. GetX Counter Example, this example will create a simple counter app with getx to increment the value of counter4
 2. Box Opcity with Slider example.
+3. Favourite with GetX.
