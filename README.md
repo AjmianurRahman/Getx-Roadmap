@@ -35,3 +35,12 @@ This contains:
 1. GetX Counter Example, this example will create a simple counter app with getx to increment the value of counter4
 2. Box Opcity with Slider example.
 3. Favourite with GetX.
+
+# MVVM Architecture with GetX
+
+1. Exception Handling.
+2. Networks and APIs.
+3. Routes Management.
+4. Utils Management.
+5. View, View Models and Models.
+6. States Management.
