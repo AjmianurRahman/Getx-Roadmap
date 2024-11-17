@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_roadmap/home_screen.dart';
+import 'package:getx_roadmap/MVVM/res/routes/routes.dart';
+import 'package:getx_roadmap/MVVM/view/splash_screen.dart';
 import 'package:getx_roadmap/uitls/languages.dart';
 
 void main() {
@@ -18,7 +19,9 @@ class MyApp extends StatelessWidget {
       locale: Locale('en', 'US'),
       fallbackLocale: Locale('en', 'US'),
       translations: Languages(),
-      home: const HomeScreen(),
+
+      home:  SplashScreen(),
+getPages: AppRoutes.appRoutes(),
     );
   }
 }
